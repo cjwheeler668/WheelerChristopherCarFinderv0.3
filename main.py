@@ -1,6 +1,14 @@
 
 import os
 
+#input from user
+# Password prompt
+password = input("Enter the password: ")
+while password != "OnLoad":
+    print("Incorrect password. Please try again.")
+    password = input("Enter the password: ")
+print("Password accepted."
+      
 #Menu
 def menu():
   print("*******************************")
